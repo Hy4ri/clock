@@ -1,4 +1,4 @@
-# tty-clock
+# clock
 
 A simple, sleek terminal clock written in C.
 
