@@ -5,6 +5,7 @@ A simple, sleek terminal clock written in C.
 ## Requirements
 
 The project depends on:
+
 - `gcc`
 - `make`
 - `pkg-config`
@@ -31,7 +32,7 @@ make
 To run it:
 
 ```bash
-./tty-clock
+./clock
 ```
 
 To clean build artifacts:

@@ -6,7 +6,7 @@ LDFLAGS = $(shell pkg-config --libs x11 xft fontconfig)
 
 SRCS    = main.c clock.c
 OBJS    = $(SRCS:.c=.o)
-TARGET  = tty-clock
+TARGET  = clock
 
 all: $(TARGET)
 
