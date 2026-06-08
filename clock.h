@@ -16,8 +16,9 @@ void clock_cleanup(Display *dpy, int screen);
 
 /*
  * Render the clock double-buffered using a Pixmap.
+ * Returns true if a redraw was actually copied to the window.
  */
-void clock_draw(Display *dpy, Window win, int screen, int width, int height);
+bool clock_draw(Display *dpy, Window win, int screen, int width, int height, bool force_redraw);
 
 /*
  * Zoom controls
